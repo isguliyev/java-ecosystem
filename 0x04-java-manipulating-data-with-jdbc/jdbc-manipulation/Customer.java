@@ -22,11 +22,11 @@ public class Customer {
     @Override
     public String toString() {
         return String.format(
-                "%s [id=%d, name=%s, email=%s]",
-                this.getClass().getSimpleName(),
-                this.id,
-                this.name,
-                this.email
+            "%s [id=%d, name=%s, email=%s]",
+            this.getClass().getSimpleName(),
+            this.id,
+            this.name,
+            this.email
         );
     }
 
