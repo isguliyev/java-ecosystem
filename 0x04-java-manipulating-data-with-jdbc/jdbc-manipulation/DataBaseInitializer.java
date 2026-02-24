@@ -1,4 +1,7 @@
-import java.sql.*;
+import java.sql.Statement;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.DriverManager;
 
 public class DataBaseInitializer {
     public static void initializeCustomerDataBase(String connectionUrl) {

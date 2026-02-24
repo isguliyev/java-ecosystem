@@ -1,8 +1,12 @@
-import java.sql.*;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.PreparedStatement;
 
 public class CustomerDAO {
     public Optional<Customer> findById(Connection connection, Long id) throws SQLException {
